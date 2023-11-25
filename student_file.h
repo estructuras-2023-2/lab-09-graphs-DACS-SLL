@@ -85,7 +85,7 @@ public:
 
             if (x != y) {
                 if (cam.cost != 0 && cam.cost < minCost) {
-                    carreteraReparable += cam.id + " ";
+                    carreteraReparable += cam.id;
                     minCost = cam.cost;
                 }
                 unionSets(subsets, x, y);
